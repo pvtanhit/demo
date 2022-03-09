@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    uris: ${REDIS_URIS:redis}
+    port: ${REDIS_PORT:6379}
